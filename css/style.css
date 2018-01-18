@@ -1,0 +1,63 @@
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 50px;
+}
+
+h4 {
+  font-weight: bold;
+  text-decoration: underline;
+  padding-left: 2%;
+}
+
+.container {
+  margin: auto;
+  background: rgb(179, 185, 188);
+  padding: 25px;
+}
+
+.jumbotron{
+  padding: 48px 60px 48px 60px;
+  border-radius: 10px;
+}
+
+.titleSlogan {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.subTitle {
+  font-size: 17px;
+  width: 90%;
+  padding-left: 9%;
+  padding-bottom: 20px;
+  margin: 0px 50p 0px 50px;
+}
+
+.timeline, .records{
+  width: 70%;
+  padding:0px 60px 0px 60px;
+}
+
+.emmittQuote{
+  font-family: arial;;
+  padding-top: 10%;
+}
+
+p span{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.wikiLink{
+  padding: 50px 50px 0px 50px;
+  text-align: center;
+}
+
+footer{
+  font-weight: bold;
+  text-align: center;
+  font-family: times roman;
+}
