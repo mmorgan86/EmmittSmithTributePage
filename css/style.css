@@ -3,42 +3,53 @@ h1 {
   font-size: 50px;
   font-weight: bold;
   text-transform: uppercase;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
+  text-shadow: 2px 2px 2px rgba(62, 64, 66, 0.8);
+  margin: 20px;
 }
 
 h4 {
   font-weight: bold;
   text-decoration: underline;
-  padding-left: 2%;
+  padding: 2% 0 2% 10%;
+}
+
+li{
+  padding-bottom: 5px;
 }
 
 .container {
-  margin: auto;
+  margin: 0 auto;
   background: rgb(179, 185, 188);
-  padding: 25px;
+  padding: 1%;
 }
 
 .jumbotron{
-  padding: 48px 60px 48px 60px;
+  padding: 48px 60px;
   border-radius: 10px;
 }
 
+.jumbotron{
+  background: #1c92d2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25,   Safari 5.1-6 */
+  background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge,    Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .titleSlogan {
-  padding-top: 20px;
+  padding: 20px 0;
   text-align: center;
 }
 
 .subTitle {
   font-size: 17px;
   width: 90%;
-  padding-left: 9%;
-  padding-bottom: 20px;
+  padding: 2% 0 0 9%;
   margin: 0px 50p 0px 50px;
 }
 
 .timeline, .records{
   width: 70%;
-  padding:0px 60px 0px 60px;
+  margin: 0 auto;
 }
 
 .emmittQuote{
@@ -54,6 +65,10 @@ p span{
 .wikiLink{
   padding: 50px 50px 0px 50px;
   text-align: center;
+}
+
+.wikiSpan{
+  color: white;
 }
 
 footer{
