@@ -47,7 +47,7 @@ li{
   margin: 0px 50p 0px 50px;
 }
 
-.timeline, .records{
+.timeline, .records, .postSeasonRecords{
   width: 70%;
   margin: 0 auto;
 }
